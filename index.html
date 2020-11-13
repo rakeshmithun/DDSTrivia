@@ -29,61 +29,50 @@
         <div class="alert success">
             <strong><h3>This week's trivia will be hosted by Team Animals on 13/11/2020</h3></strong>
         </div>
-        </div>
-        <div class="container">
-            <div class="headings">
-                <h3>Environments:</h3>
-            </div>
+        <div class='container'>
             <table class="table">
                 <tr>
-                    <td><label class="environments"><input id="pta" type="radio"class="checkmark"><h4>PTA</h4></label></td>
-                    <td><label class="environments"><input id="ptb" type="radio"class="checkmark"><h4>PTB</h4></label></td>
-                    <td><label class="environments"><input id="pte" type="radio"class="checkmark"><h4>PTE</h4></label></td>
-                    <td><label class="environments"><input id="ptg" type="radio"class="checkmark"><h4>PTG</h4></label></td>
-                    <td><label class="environments"><input id="pth" type="radio"class="checkmark"><h4>PTH</h4></label></td>
-                    <td><label class="environments"><input id="pti" type="radio"class="checkmark"><h4>PTI</h4></label></td>
-                    <td><label class="environments"><input id="ptr" type="radio"class="checkmark"><h4>PTR</h4></label></td>
-                    <td><label class="environments"><input id="ptw" type="radio"class="checkmark"><h4>PTW</h4></label></td>
+                    <th>Team name</th>
+                    <th>Scheduled to host</th>
+                    <th>Score from last trivia</th>
+                </tr>
+                <tr>
+                    <td>007</td>
+                    <td>13/11/2020</td>
+                    <td>24/30</td>
+                </tr>
+                <tr>
+                    <td>Animals</td>
+                    <td>13/11/2020</td>
+                    <td>24/30</td>
+                </tr>
+                <tr>
+                    <td>Breaking build</td>
+                    <td>20/11/2020</td>
+                    <td>20/30</td>
+                </tr>
+                <tr>
+                    <td>Cherminators</td>
+                    <td>27/11/2020</td>
+                    <td>22/30</td>
+                </tr>
+                <tr>
+                    <td>Expendables</td>
+                    <td>04/11/2020</td>
+                    <td>18/25</td>
                 </tr>
             </table>
-        </div>
-        <div class="container">
-            <h3>Client identifier:</h3>
-        </div>
-        <div class="container">
-            <h4>myGovID:</h4>
-            <textarea rows="1" cols="60" class="mygovid" type="email" id="mygovid" name="mygovid" title="mygovid"></textarea>
-        </div>
-        <div class="container">
-            <h4>ABN:</h4>
-            <textarea rows="1" cols="60" class="abn" type="number" id="abn" pattern="[0-9]" maxlength="11" onkeydown="checkInput(this)" id="abn" name="abn" title="abn"></textarea>
-        </div>
-        <div class="container ">
-            <h4>MBUN:</h4>
-            <textarea rows="1" cols="60" class="mbun" type="text" id="mbun">Meaningless but unique number..</textarea>
         </div>
         <div class="container ">
             <div class="resetstuff">
                 <button id="reset " class="button button2 " type="button " onclick="resetAll()">Reset</button>
-                <button id="clearcache " class="button button3 " type="button " onclick="clearCache()">Clear cache</button>
+                <button id="clearcache " class="button button3 " type="button " onclick="clearItem()">Add items</button>
             </div>
             <div class="launching">
-                <button id="launch " class="button button1 " type="button " onclick="clickHandler()"><strong>Launch</strong></button>
+                <button id="launch " class="button button1 " type="button " onclick="clickHandler()"><strong>Update</strong></button>
             </div>
         </div>
-
-        <div id="popup1" class="overlay">
-            <div class="popup">
-                <h2>Oops!</h2>
-                <a class="close">x</a>
-                <div class=" content-1 ">
-                    <h4>Please press "CTRL" + "SHIFT" + "DEL" to clear browser cache.</h4>
-                </div>
-            </div>
-        </div>
-
     </main>
-    <script src="js\app.js "></script>
     <!--footer-->
     <footer>
     </footer>
