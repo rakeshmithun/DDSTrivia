@@ -97,6 +97,11 @@ function clearCache() {
     modal.classList.add('show');
 };
 
+function addItem() {
+    modal.classList.add('show');
+};
+
+
 //click handler for the reset button
 function resetAll() {
     let clist = document.getElementsByTagName("input");
