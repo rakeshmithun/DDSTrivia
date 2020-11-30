@@ -106,9 +106,22 @@
         text-align: left;
         padding: 8px;
     }
+
+    #th2 {
+        border: 1px solid #dddddd;
+        text-align: left;
+        width: 100%;
+    }
     
     tr:nth-child(even) {
         background-color: #dddddd;
+    }
+
+    #table1 {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 15px;
     }
     
     #bottom {
