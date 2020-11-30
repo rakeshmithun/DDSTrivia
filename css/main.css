@@ -92,6 +92,7 @@
     
     .alert.success {
         background-color: #4CAF50;
+        border: 1px solid #080000;
     }
     
     table {
@@ -109,6 +110,7 @@
 
     #th2 {
         border: 1px solid #dddddd;
+        background-color: #4CAF50;
         text-align: left;
         width: 100%;
     }
